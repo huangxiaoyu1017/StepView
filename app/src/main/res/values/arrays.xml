@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<!--    <string-array name="stepContentsItems1">-->
+
+<!--        <item>提交申请</item>-->
+
+<!--        <item>客服审核</item>-->
+
+<!--        <item>品牌方审核</item>-->
+
+<!--        <item>退件寄出</item>-->
+
+<!--        <item>退款成功</item>-->
+<!--    </string-array>-->
+
+<!--    <string-array name="stepContentsItems2">-->
+
+<!--        <item>提交申请</item>-->
+
+<!--        <item>客服审核</item>-->
+
+<!--        <item>品牌方审核</item>-->
+
+<!--        <item>退款成功</item>-->
+<!--    </string-array>-->
+
+<!--    <string-array name="stepContentsItems3">-->
+
+<!--        <item>测试数据1</item>-->
+
+<!--        <item>测试数据2</item>-->
+
+<!--        <item>测试数据3</item>-->
+
+<!--    </string-array>-->
+
+    <string-array name="stepContentsItems3">
+
+        <item>已支付</item>
+
+        <item>已取消</item>
+
+        <item>发起退款</item>
+
+    </string-array>
+
+    <string-array name="stepContentsItems4">
+
+        <item>已支付</item>
+
+        <item>已取消</item>
+
+        <item>发起退款</item>
+
+        <item>退款完成</item>
+    </string-array>
+
+    <string-array name="stepContentsItems5">
+
+        <item>已支付</item>
+
+        <item>已取消</item>
+
+        <item>发起退款</item>
+
+        <item>待收货</item>
+
+        <item>退款完成</item>
+    </string-array>
+</resources>

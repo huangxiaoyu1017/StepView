@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="stepView">
+        <attr name="totalStep" format="integer" />
+        <attr name="textSize" format="dimension"/>
+        <attr name="entries" format="reference" />
+        <attr name="circleRadius" format="dimension"/>
+        <attr name="lineHeight" format="dimension"/>
+        <attr name="textImagePadding" format="dimension"/>
+        <attr name="finishLineColor" format="color"/>
+        <attr name="unfinishedLineColor" format="color"/>
+        <attr name="finishSrc" format="reference"/>
+        <attr name="currentStep" format="integer"/>
+
+
+
+
+
+    </declare-styleable>
+
+
+
+
+</resources>

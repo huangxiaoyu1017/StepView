@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#ff445e"
+    >
+
+    <com.example.stepview.widget.StepView
+        android:id="@+id/sv_step1"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        app:textSize="12sp"
+        app:circleRadius="5dp"
+        app:totalStep="3"
+        app:currentStep="0"
+        app:textImagePadding="10dp"
+        android:layout_marginTop="10dp"
+        app:entries="@array/stepContentsItems3"
+        />
+
+    <com.example.stepview.widget.StepView
+        android:id="@+id/sv_step2"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="#FF445E"
+        app:textSize="12sp"
+        app:circleRadius="5dp"
+        app:textImagePadding="10dp"
+        app:totalStep="4"
+        app:currentStep="1"
+        app:entries="@array/stepContentsItems4"
+        android:layout_below="@+id/sv_step1"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        />
+
+    <com.example.stepview.widget.StepView
+        android:id="@+id/sv_step3"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="#FF445E"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        app:textSize="12sp"
+        app:totalStep="5"
+        app:currentStep="2"
+        app:circleRadius="5dp"
+        app:textImagePadding="10dp"
+        app:entries="@array/stepContentsItems5"
+        android:layout_below="@+id/sv_step2"
+        android:layout_marginTop="10dp"
+
+        />
+
+
+
+    <com.example.stepview.widget.StepView
+        android:id="@+id/sv_step4"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="#FF445E"
+        app:textSize="12sp"
+        app:circleRadius="5dp"
+        app:textImagePadding="10dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        app:totalStep="5"
+        app:currentStep="3"
+        app:entries="@array/stepContentsItems5"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/sv_step3"
+
+        />
+
+    <com.example.stepview.widget.StepView
+        android:id="@+id/sv_step5"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="#FF445E"
+        app:textSize="12sp"
+        app:circleRadius="5dp"
+        app:textImagePadding="10dp"
+        app:totalStep="5"
+        app:currentStep="4"
+        app:entries="@array/stepContentsItems5"
+        android:layout_below="@+id/sv_step4"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        />
+
+
+
+
+
+
+
+
+</RelativeLayout>
